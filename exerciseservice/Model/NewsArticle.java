@@ -25,7 +25,7 @@ public class NewsArticle {
     private String author;
     //------------------------------
     @NotNull(message = "content can not be null")
-    @Size(min = 50,message = "content must be more than 200 characters.")
+    @Size(min = 100,message = "content must be more than 200 characters.")
     private String content;
     //--------------------------------------
     @NotNull(message = "Category Cannot be null")
